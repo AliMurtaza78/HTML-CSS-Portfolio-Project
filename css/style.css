@@ -10,9 +10,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
     margin: 0px;
+
 }
 body{
     background-color: aliceblue;
+    overflow-x: hidden;
 }
 
 .header{
@@ -124,15 +126,16 @@ a{
 }
 
 .third-background{
-    background-image: url("../../HTML-CSS-Portfolio-Project/images/hero-img_copy.jpg");
-    height: 377px;
+    background-image: url(../../HTML-CSS-Portfolio-Project/images/hero-img_copy.jpg);
+    height: 428px;
     width: auto;
     position: relative;
     display: flex;
     justify-content: center;
     border: 2px solid black;
     border-radius: 0.4em;
-    padding: 5px 6px 5px 6px}
+    padding: 10px 10px 10px 10px;
+}
 
 .third-para{
     color: white;
@@ -142,13 +145,46 @@ a{
     padding: 10px 10px 10px 10px;
     line-height: 1.5;
     word-spacing: 3px;
+    display: inline-block;
 }
 
 .project-pics{
-    display: inline-flex;
-    height: 222px;
-    width: auto;
+    display: flex;
+    height: 80%;
+    width: 70%;
     gap: 2em;
+    text-align: center;
+    padding: 16px 3px 58px 105px;
     justify-content: center;
 }
+
+,.project-pics:hover{
+    transition: 0.3s;
+}
+
+.repo-link{
+    text-decoration: underline;
+    color:#ff0000;
+}
+
+.contact{
+    background-color: #120c0ceb;
+    height: 400px;
+    width: auto;
+    border: 2px solid black;
+    border-radius: 0.3em;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contact-logos{
+    
+}
+
+.last-header{
+    margin-bottom: 10px;
 }
