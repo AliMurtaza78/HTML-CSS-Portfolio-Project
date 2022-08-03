@@ -6,3 +6,149 @@
  *    for example: General styles, Navigation styles, Hero styles, Footer etc.
  * 
  */
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0px;
+}
+body{
+    background-color: aliceblue;
+}
+
+.header{
+
+    background-color:#444;
+    height: 70px;
+    width: auto;
+    margin-top: 0px;
+    border: 2px solid transparent;
+}
+
+li{
+    list-style: none;
+    color: azure;
+}
+
+.header-content{
+    display: flex;
+    gap: 2em;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 1.5em;
+    text-transform: uppercase;
+}
+
+.top-pic{
+    height: 90px;
+    width: auto;
+}
+.first-sec{
+    text-align: center;
+    border: 0.5rem outset #ff7575;
+    outline: 0.5rem solid #92f08c;
+    box-shadow: 0 0 0 2rem #8791eb;
+    border-radius: 12px;
+    font: bold 1.5rem sans-serif;
+    margin: 2rem;
+    padding: 1rem;
+    outline-offset: 0.5rem;
+    margin-bottom: 0px;
+
+}
+
+
+.dp{
+    height: 550px;
+    width: auto;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+.para-1-line{
+    color: #f00;
+}
+
+.background{
+    background-image: url("../../HTML-CSS-Portfolio-Project/images/bg-1.jpg");
+    height: 566px;
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 2.3em;
+    border: 2px solid black;
+    border-radius: 0.4em;
+}
+
+.second-para{
+    font-size: 20px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.second-background{
+    background-image: url("../../HTML-CSS-Portfolio-Project/images/hand-painted-background-violet-orange-colours_23-2148427578.webp");
+    height: 191px;
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    border: 2px solid black;
+    border-radius: 0.4em;
+}
+
+.new-header{
+    color: white;
+    text-align: center;
+    padding: 5px 5px 5px 5px;
+    font-size: 2em;
+    font-weight: 900;
+}
+
+.first-para{
+    text-align: center;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.5;
+}
+
+.third-background{
+    background-image: url("../../HTML-CSS-Portfolio-Project/images/hero-img_copy.jpg");
+    height: 377px;
+    width: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    border: 2px solid black;
+    border-radius: 0.4em;
+    padding: 5px 6px 5px 6px}
+
+.third-para{
+    color: white;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: bolder;
+    padding: 10px 10px 10px 10px;
+    line-height: 1.5;
+    word-spacing: 3px;
+}
+
+.project-pics{
+    display: inline-flex;
+    height: 222px;
+    width: auto;
+    gap: 2em;
+    justify-content: center;
+}
+}
